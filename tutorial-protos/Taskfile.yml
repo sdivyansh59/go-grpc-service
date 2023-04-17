@@ -1,0 +1,9 @@
+version: '3'
+
+tasks:
+  build:
+    desc: "xyz"
+    cmds:
+      - protoc --go-grpc_out=./rocket/v1 rocket/**/*.proto
+      
+    
